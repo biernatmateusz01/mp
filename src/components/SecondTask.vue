@@ -14,9 +14,6 @@
 <script>
 import InputDefault from '../components/InputDefault.vue'
 export default {
-  emits: {
-    getModelValue: null
-  },
   data() {
     return {
       vName: ''
